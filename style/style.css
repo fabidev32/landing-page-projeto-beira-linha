@@ -1,0 +1,268 @@
+body {
+  background-color: #565a94;
+  margin: 0px;
+  border: 0px;
+}
+
+* {
+  font-family: Verdana, sans-serif;
+}
+
+
+/* Seção header */
+
+.container-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+  margin-top: 30px;
+}
+
+.div-menu ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.div-menu ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  background-color: #fffff1;
+  border-radius: 40px;
+  border: 5px solid #ddd3ed;
+  height: 40px;
+  width: 280px;
+  
+}
+
+.div-menu ul li a {
+  font-family: Arial;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+  color: #565557;
+
+}
+
+.div-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-logo p {
+    font-family: Arial, sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+    color: #ddd3ed;
+}
+
+
+#img-logo {
+    width: 60px;
+    height: 60px;
+}
+
+
+/* Seção introdução à landing page */
+
+.container-conteudo-inicial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.container-conteudo-inicial div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-conteudo-cursos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+
+}
+
+.section-texto-principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+
+.section-texto-principal ul {
+    list-style: none;
+}
+
+.section-imagem-principal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #565a94;
+
+}
+
+.div-conteudo-inicial {
+  display: flex;
+  align-items: center;
+  border-radius: 60px;
+  justify-content: center;
+  background-color: #ddd3ed;
+  border: 2px solid #ffff;
+
+
+}
+
+.div-titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding-bottom: 20px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.div-titulo h2 {
+  font-family: Stencil Std, fantasy;
+  font-variant: small-caps;
+  font-weight: 100;
+  font-size: 50px;
+  color: #565a94;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.div-titulo p {
+  font-family: Verdana, sans-serif;
+  font-size: 25px;
+  color: #565657;
+  margin: 0px;
+  margin-bottom: 40px;
+  width: 60%;
+  text-align: center;
+
+}
+
+.div-descricao-categorias {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #9999e8;
+  width: 100%;
+  height: 100px;
+  margin: 30px;
+  margin-top: 60px;
+}
+
+.div-descricao-categorias h2 {
+  font-family: Arial;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 30px;
+  color: #e2e3f1;
+}
+
+.div-conteudo-cursos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  gap: 40px;
+  background-color: #e8e2f7;
+  border: 1px solid #fffff1;
+  border-radius: 20px;
+  width: 60%;
+}
+
+.div-conteudo-cursos h3 {
+  font-family: Stencil Std, fantasy;
+  font-variant: small-caps;
+  font-weight: 100;
+  font-size: 40px;
+  color: #858585;
+}
+
+.div-conteudo-cursos p {
+  font-family: Verdana, sans-serif;
+  font-size: 22px;
+  color: #565657;
+  width: 80%;
+}
+
+.div-conteudo-cursos img {
+  width: 300px;
+  height: 300px;
+}
+
+#img-principal {
+  height: 500px;
+  width: 500px;
+}
+
+#icon-camisa {
+  width: 90px;
+  height: 90px;
+}
+
+#button-inscrever {
+  width: 250px;
+  padding: 15px;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  font-family: Verdana, sans-serif;
+  background-color: #004477;
+  border: 1px solid #d1d1c6;
+  color: #fffff1;
+  font-size: 20px;
+}
+
+#saiba-mais {
+  width: 250px;
+  padding: 15px;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  font-family: Verdana, sans-serif;
+  background-color: #004477;
+  border: 1px solid #d1d1c6;
+  color: #fffff1;
+  font-size: 20px;
+}
+
+
+/* Seção footer */
+
+footer {
+  margin-top: 60px;
+}
+
+footer div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  height: 200px;
+  background-color: #818cec;
+}
+
+footer div p {
+  font-family: Verdana, sans-serif;
+  font-size: 25px;
+  color: #3d3b3b;
+  margin: 0px;
+}
