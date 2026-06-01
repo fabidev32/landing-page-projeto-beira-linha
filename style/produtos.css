@@ -1,65 +1,81 @@
-* {
-  font-family: Verdana, sans-serif;
-}
-
-/* Seção header */
-
-.container-header {
+.section_itens {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #d2bfe4;
+}
+
+.div_musica {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #655970;
+  border: 5px solid rgb(247, 243, 243);
+  border-radius: 30px;
+  width: 30%;
+
+}
+
+p {
+  margin: 0px;
+  font-size: 40px;
+}
+
+.div_musica div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.div_musica img {
+  width: 500px;
   margin: 20px;
+  border-radius: 20px;
+  box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.3);
 }
 
-.div-menu ul {
-  display: flex;
-  gap: 30px;
-  list-style: none;
+.div_musica h2 {
+  font-family: Impact, fantasy;
+  text-align: center;
+  font-weight: lighter;
+  color: white;
 }
 
-.div-menu ul li {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 5px;
-  background-color: #fffff1;
-  border-radius: 40px;
-  height: 40px;
-  width: 280px;
-  font-size: 18px;
+.div_musica p {
+  font-family:
+    Courier New,
+    monospace;
+  font-size: 30px;
+  text-align: justify;
+  color: white;
+  width: 70%;
 }
 
-.div-logo {
-    display: flex;
-    gap: 15px;
+/* Grid*/
+
+/* .grid {
+  display: grid;
+  grid-template-columns: 2px;
+  grid-template-rows: 2px;
 }
 
-.div-logo p {
-    font-family: Arial, sans-serif;
-    font-weight: 100;
-    font-size: 20px;
-    color: #858585;
+.div01 {
+  grid-column: 1/2;
+  grid-row: 1/2;
 }
 
-a {
-  text-decoration: none;
-  color: #565557;
+.div02 {
+  grid-column: 2/3;
+  grid-row: 1/2;
 }
 
-#img-logo {
-    width: 60px;
-    height: 60px;
-}
+.div03 {
+    grid-column: 1/3;
+    grid-row: 2/3;
 
-
-/* Seção produtos */
-
-.div-produto {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    margin: 20px;
-    border: 2px solid #565557;
-    border-radius: 10px;
-}
+} */

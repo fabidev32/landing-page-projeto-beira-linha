@@ -1,47 +1,44 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cadasto de jogos</title>
+  <link rel="stylesheet" href="./../style/formulario.css" class="stylesheet" />
 </head>
+
 <body>
+  <main>
+    <section class="container_formulario">
+      <div>
+        <img id="imagem_formulario" src="./../assets/formulario.png" alt="Imagem do formulário">
+      </div>
+      <div class="div_formulario">
+        <h3>Inscreva-se abaixo! </h3>
+        <input type="text" id="nome" placeholder="Digite nome e sobrenome" />
+        <input type="email" id="email" placeholder="Digite o email" />
+        <input type="number" id="numero" placeholder="Digite o numero" />
+        <p id="texto_cursos"> Escolha o curso que deseja participar </p>
+        <select class="select">
+          <!-- Lista suspensa. Seleciono as opções -->
+          <option class="option"> Programação HTML </option>
+          <option class="option"> Informática básica </option>
+          <option class="option"> Programação em log </option>
+        </select>
+        <button onclick = "Cadastrar()" id="enviar"> Enviar </button>
+      </div>
+    </section>
 
-    <header>
-        <nav class = "container-header">
-        <div class = "div-logo">
-        <img id = "img-logo" src="assets/logo.png" alt="Logo da empresa" />
-        <p> UaiArt! </p>
-        </div>
-          <div class = "div-menu">
-          <ul>
-            <li><a href="#"> Sobre esse trem baum demais </a></li>
-            <li><a href="#"> Produtos </a></li>
-            <li><a href="#"> Personalizados aqui sô! </a></li>
-            <li><a href="#"> Contato </a></li>
-          </ul>
-        </div>
-        </div>
-    </header>
+    <section>
+      <p id="nome_cadastrado"></p>
+      <p id="email_cadastrado"></p>
+      <p id="numero_cadastrado"> </p>
+    </section>
+  </main>
 
-    <main>
-        <section>
-            <h3> Formulário de contato </h3>
-            <hr>
-            <form id = "form-contato">
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
-    
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-    
-            <label for="mensagem"> Escreva abaixo o produto que você deseja personalizar e te enviaremos o orçamento por WhatsApp!</label>
-            <textarea id="mensagem" name="mensagem" required></textarea>
-
-            <button type="submit">Enviar</button>
-            </form>
-        </section>
-    </main>
-    
+  <script src = "./../javascript/formulario.js"></script>
+  
 </body>
+
 </html>
